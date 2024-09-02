@@ -3,26 +3,128 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
+  color: #000000;
   font-size: 16px;
   line-height: 20px;
 }
 .header {
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background_header.svg);
+  background-color: #ffffff;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
 }
 
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__title {
+  margin-top: 183px 0 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+.header__description {
+  font-family: "Noto Serif", "time New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px 0 0;
+  max-width: 683px;
+}
+.header__span-accent {
+  font-family: "Noto Serif", "time New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+  display: block;
+}
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__paragraph {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+  margin: 0;
+}
+.header__adress {
+  display: flex;
+  align-self: flex-end;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav__logo {
+  height: 39px;
+  width: 105px;
+  position: relative;
+  left: -50px;
+}
+.input_borders {
+  color: #838383;
+}
+.accent_text {
+  color: #3f96f3;
+}
+.hours {
+  color: #6f6f6f;
+}
 .content {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
 }
-
 .recipes {
+  color: #ffffff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
 }
-
-.reservation {
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
-
-.menu {
+.recipes__title {
+  margin: 0 0 24px;
 }
-
-.about {
+.recipes__subtitle {
+  margin: 0 0 80px;
 }
-
-.footer {
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
 }
