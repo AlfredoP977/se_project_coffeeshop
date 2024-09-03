@@ -137,9 +137,12 @@
 .recipes {
   color: #ffffff;
   background-color: #0a2750;
-  padding: 100px 80px 215px;
+  background-size: cover;
+  background-clip: padding-box;
   background-image: url(/images/background_recipes.svg);
+  padding: 100px 80px 215px;
 }
+
 .recipes__videos {
   display: flex;
   justify-content: center;
