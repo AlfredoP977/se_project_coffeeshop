@@ -125,15 +125,10 @@
 } */
 
 .content {
-  padding: 100px 0 120px 80px;
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  box-sizing: border-box;
-  background-color: #f2f2f2;
 }
 
 /* Recipes section */
+
 .recipes {
   color: #ffffff;
   background-color: #0a2750;
@@ -142,7 +137,11 @@
   background-image: url(/images/background_recipes.svg);
   padding: 100px 80px 215px;
 }
-
+.recipes__iframe {
+  height: 273px;
+  width: 480px;
+  border: none;
+}
 .recipes__videos {
   display: flex;
   justify-content: center;
