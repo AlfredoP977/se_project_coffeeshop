@@ -97,6 +97,9 @@
 .accent_text {
   color: #3f96f3;
 }
+.iframe {
+  style="border": none;
+}
 .hours {
   color: #6f6f6f;
 }
