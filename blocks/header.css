@@ -35,6 +35,7 @@
   line-height: 30px;
   margin-top: 28px;
   max-width: 683px;
+  margin-bottom: auto;
 }
 .header__span-accent {
   font-family: "Noto Serif", "time New Roman", serif;
@@ -69,34 +70,4 @@
 .header__adress {
   display: flex;
   align-self: flex-end;
-}
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-.nav__links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding: 0px;
-}
-
-.nav__link {
-  text-decoration: none;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
-}
-.nav__link:hover {
-  color: #2f80ed;
-  transition: color 1s linear 0s;
-}
-.nav__logo {
-  height: 39px;
-  width: 105px;
-  position: relative;
-  left: -50px;
 }
