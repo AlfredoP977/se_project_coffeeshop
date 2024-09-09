@@ -12,7 +12,6 @@
   height: 39px;
 }
 .footer__social-heading {
-  padding-bottom: 20px;
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
   font-style: normal;
@@ -20,19 +19,18 @@
   font-size: 16px;
   line-height: 20px;
   text-align: right;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .footer__list {
   list-style: none;
 }
 footer__list-item {
-  margin-top: 16px;
 }
 .footer__list-icon {
   height: 16px;
   width: 16px;
   margin-right: 10px;
+  margin-top: 16px;
 }
 .footer__link {
   font-family: "Inter", Arial, sans-serif;
@@ -41,14 +39,12 @@ footer__list-item {
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  padding-bottom: 16px;
-  margin-right: auto;
+  display: block;
+  gap: 16px;
 }
 .footer__link:hover {
   color: #c1c1c1;
-  transition: color 0s linear 1s;
-}
-.footer__link::last {
+  transition: color 1s linear 0s;
 }
 .footer__copyright {
   font-family: "Inter", Arial, sans-serif;
