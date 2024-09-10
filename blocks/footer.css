@@ -17,14 +17,14 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  text-align: right;
+  text-align: left;
   margin-bottom: 0px;
   margin-top: auto;
 }
 .footer__list {
   list-style: none;
-  padding: auto;
-  margin: right;
+  margin: 0;
+  padding: 0;
 }
 .footer__list-icon {
   height: 16px;
@@ -53,6 +53,6 @@
   font-size: 16px;
   line-height: 20px;
   margin-top: 108px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
   margin-left: auto;
 }
