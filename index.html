@@ -63,9 +63,9 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <!-- CONTENT -->
@@ -108,7 +108,7 @@
         <!-- PART 3 project -->
         <section id="booking" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form form">
+          <form class="form__reservation form">
             <!-- form elements for user information -->
             <fieldset class="form__fieldset">
               <label for="name" class="form__label"
@@ -158,7 +158,12 @@
             </fieldset>
 
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__check" id="checkbox" required />
+              <input
+                type="checkbox"
+                class="form__check"
+                id="checkbox"
+                required
+              />
               I agree with terms of use
             </label>
           </form>
@@ -174,102 +179,106 @@
           </p>
           <div class="menu__cards">
             <!-- 1st card -->
-            <ul class="card">
+            <div class="card">
               <h3 class="card__title">Filter</h3>
-              <li class="card__list-item">
-                Regular(12oz)
-                <span class="card__list-divider"> </span>
-                $1
-              </li>
-              <li class="card__list-item">
-                Large (16 oz)
-                <span class="card__list-divider"> </span>
-                $1.25
-              </li>
-              <li class="card__list-item">
-                XL (20 oz)
-                <span class="card__list-divider"> </span>
-                $1.5
-              </li>
-              <li class="card__list-item">
-                Party-size (24 oz, decaf)
-                <span class="card__list-divider"> </span>
-                $1.75
-              </li>
-              <li class="card__list-item">
-                Iced Coffee (16 oz)
-                <span class="card__list-divider"> </span>
-                $1.25
-              </li>
-            </ul>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular(12oz)
+                  <span class="card__list-divider"> </span>
+                  $1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)
+                  <span class="card__list-divider"> </span>
+                  $1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)
+                  <span class="card__list-divider"> </span>
+                  $1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)
+                  <span class="card__list-divider"> </span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
+                  <span class="card__list-divider"> </span>
+                  $1.25
+                </li>
+              </ul>
+            </div>
             <!-- 2nd card -->
-            <ul class="card">
+            <div class="card">
               <h3 class="card__title">Espresso</h3>
-              <li class="card__list-item">
-                Macchiato
-                <span class="card__list-divider"> </span>
-                $2.25
-              </li>
-              <li class="card__list-item">
-                Cortado
-                <span class="card__list-divider"> </span>
-                $2.5
-              </li>
-              <li class="card__list-item">
-                Mocha
-                <span class="card__list-divider"> </span>
-                $3
-              </li>
-              <li class="card__list-item">
-                Sunrise in the Bay Area(decaf) (24 oz, decaf)
-                <span class="card__list-divider"> </span>
-                $10
-              </li>
-            </ul>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"> </span>
+                  $2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"> </span>
+                  $2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"> </span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area(decaf) (24 oz, decaf)
+                  <span class="card__list-divider"> </span>
+                  $10
+                </li>
+              </ul>
+            </div>
             <!-- 3rd card -->
-            <ul class="card">
+            <div class="card">
               <h3 class="card__title">Baked Goods</h3>
-              <li class="card__list-item">
-                Almond Croissant
-                <span class="card__list-divider"> </span>
-                $2
-              </li>
-              <li class="card__list-item">
-                Banana Bread
-                <span class="card__list-divider"> </span>
-                $1.75
-              </li>
-              <li class="card__list-item">
-                Key Lime Pie
-                <span class="card__list-divider"> </span>
-                $3
-              </li>
-              <li class="card__list-item">
-                Blue Velvet Cake
-                <span class="card__list-divider"> </span>
-                $3.75
-              </li>
-              <li class="card__list-item">
-                Web Cookie
-                <span class="card__list-divider"> </span>
-                $2
-              </li>
-              <li class="card__list-item">
-                Fresh Bug'uette
-                <span class="card__list-divider"> </span>
-                $.25
-              </li>
-            </ul>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-divider"> </span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <span class="card__list-divider"> </span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <span class="card__list-divider"> </span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <span class="card__list-divider"> </span>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <span class="card__list-divider"> </span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug'uette
+                  <span class="card__list-divider"> </span>
+                  $.25
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <!-- menu end -->
         <!-- about -->
         <section class="about">
           <div class="about__circle"></div>
-            <div class="about__circle about__circle_animation_blurred"></div>
-          <h2 class="about__title">
-            About the coffee shop
-          </h2>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
@@ -288,7 +297,11 @@
       </main>
       <footer id="contacts" class="footer">
         <div class="footer__content">
-          <img src="./images/logo_coffeeshop_light.svg" alt="Coffeeshop Logo" class="footer__logo"/>
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Coffeeshop Logo"
+            class="footer__logo"
+          />
           <div class="footer__list">
             <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
@@ -298,19 +311,22 @@
                     src="./images/facebook_white.svg"
                     alt="Facebook Icon"
                     class="footer__list-icon"
-                  />Facebook</a>
-                </span>
+                  />Facebook</a
+                >
               </li>
               <li class="footer__list-item">
-                <a href="#" class="footer__link">                <img
-                  src="./images/instagram_white.svg"
-                  alt="Instagram Icon"
-                  class="footer__list-icon"/>Instagram</a>
-                </span>
+                <a href="#" class="footer__link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Icon"
+                    class="footer__list-icon"
+                  />Instagram</a
+                >
               </li>
+            </ul>
           </div>
         </div>
-        <p class="footer__copyright" >&copy; 2024 Alfredo Parodi</p>
+        <p class="footer__copyright">&copy; 2024 Alfredo Parodi</p>
       </footer>
     </div>
   </body>

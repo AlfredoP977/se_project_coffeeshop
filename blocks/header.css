@@ -26,6 +26,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 .header__description {
   font-family: "Noto Serif", "time New Roman", serif;
@@ -66,4 +67,5 @@
   color: #6f6f6f;
   margin: 0;
   align-self: flex-end;
+  z-index: 1;
 }

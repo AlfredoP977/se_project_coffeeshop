@@ -1,3 +1,9 @@
+.form__reservation {
+  max-width: 385px;
+  margin: 0 auto;
+  border: none;
+}
+
 .form__fieldset {
   padding: 0;
   margin: auto;
@@ -34,6 +40,7 @@
   gap: 12px;
   padding: 0;
   border-radius: 2px;
+  margin: 0;
 }
 .form__button {
   width: 100%;
@@ -48,7 +55,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  padding: 20px 0 0 20px;
   border-radius: 4px;
 }
 .form__button:hover {
