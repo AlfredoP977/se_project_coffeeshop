@@ -37,6 +37,7 @@
   margin-top: 28px;
   max-width: 683px;
   margin-bottom: auto;
+  z-index: 1;
 }
 .header__span-accent {
   font-family: "Noto Serif", "time New Roman", serif;
